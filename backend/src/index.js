@@ -11,7 +11,7 @@ const server = http.Server(app);
 
 setupWebSocket(server);
 
-mongoose.connect('mongodb+srv://alexandre:AR*innfomaster@2019@cluster0-f5whu.mongodb.net/Weak10?retryWrites=true&w=majority', {
+mongoose.connect('<seu banco de dados>', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
